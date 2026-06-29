@@ -1,15 +1,16 @@
 :root {
-  --ink: #15171c;
-  --muted: #606979;
-  --line: #d9dee8;
+  --ink: #101216;
+  --muted: #5f6673;
+  --line: #d8d3c8;
   --paper: #ffffff;
-  --soft: #f3f6f8;
-  --cream: #f7efe4;
-  --blue: #2455d6;
-  --navy: #1c2d4f;
-  --coral: #c95f4a;
-  --green: #277866;
-  --shadow: 0 24px 70px rgba(23, 28, 38, 0.14);
+  --soft: #f5f2ea;
+  --cream: #efe6d7;
+  --blue: #0f513f;
+  --navy: #14151a;
+  --coral: #b47a3c;
+  --green: #0f6f58;
+  --gold: #c29a55;
+  --shadow: 0 28px 80px rgba(16, 18, 22, 0.18);
 }
 
 * {
@@ -85,7 +86,7 @@ nav a {
   padding: 0 14px;
   border-radius: 6px;
   color: white;
-  background: var(--blue);
+  background: var(--ink);
   text-decoration: none;
   font-size: 14px;
   font-weight: 800;
@@ -99,7 +100,7 @@ nav a {
   align-items: center;
   padding: 70px 42px 52px;
   background:
-    linear-gradient(90deg, rgba(21, 23, 28, 0.82), rgba(21, 23, 28, 0.5), rgba(21, 23, 28, 0.1)),
+    linear-gradient(90deg, rgba(10, 11, 13, 0.88), rgba(12, 14, 16, 0.62), rgba(12, 14, 16, 0.18)),
     url("https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1800&q=85");
   background-size: cover;
   background-position: center;
@@ -120,7 +121,7 @@ nav a {
 }
 
 .hero .eyebrow {
-  color: #c8d7ff;
+  color: #e8d4aa;
 }
 
 h1,
@@ -183,7 +184,7 @@ p {
 
 .button.primary {
   color: white;
-  background: var(--blue);
+  background: var(--ink);
 }
 
 .button.secondary {
@@ -203,7 +204,7 @@ p {
   max-width: 430px;
   justify-self: end;
   padding: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.56);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.92);
   box-shadow: var(--shadow);
@@ -255,7 +256,7 @@ p {
 }
 
 .dot.blue {
-  background: var(--blue);
+  background: var(--gold);
 }
 
 .dot.coral {
@@ -285,7 +286,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-bottom: 1px solid var(--line);
-  background: white;
+  background: #fbfaf7;
 }
 
 .proof-band div {
@@ -351,7 +352,7 @@ p {
 .check-grid span {
   display: inline-flex;
   margin-bottom: 24px;
-  color: var(--coral);
+  color: var(--gold);
   font-size: 13px;
   font-weight: 900;
 }
@@ -400,8 +401,8 @@ p {
   gap: 5px;
   margin-top: 24px;
   padding: 16px;
-  border-left: 4px solid var(--coral);
-  background: #fff7f2;
+  border-left: 4px solid var(--gold);
+  background: #fff9ee;
   color: var(--muted);
   line-height: 1.45;
 }
@@ -415,7 +416,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   padding: 22px;
-  background: var(--soft);
+  background: #fbfaf7;
 }
 
 label {
@@ -565,8 +566,8 @@ textarea {
 }
 
 .package-card.recommended {
-  border-color: var(--blue);
-  box-shadow: 0 18px 54px rgba(36, 85, 214, 0.16);
+  border-color: var(--gold);
+  box-shadow: 0 22px 60px rgba(194, 154, 85, 0.2);
 }
 
 .tier {
@@ -575,7 +576,7 @@ textarea {
   padding: 7px 10px;
   border-radius: 6px;
   color: var(--navy);
-  background: #e7edff;
+  background: #f1e2c5;
   font-size: 12px;
   font-weight: 900;
   text-transform: uppercase;
@@ -590,8 +591,8 @@ textarea {
 .value-note {
   margin: 10px 0 18px;
   padding: 12px 14px;
-  border-left: 3px solid var(--blue);
-  background: #f2f6ff;
+  border-left: 3px solid var(--gold);
+  background: #fff9ee;
   color: var(--navy);
   font-weight: 800;
   line-height: 1.45;
