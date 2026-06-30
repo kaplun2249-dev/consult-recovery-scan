@@ -379,6 +379,25 @@ p {
   max-width: 720px;
 }
 
+.kit-outcome {
+  display: grid;
+  gap: 6px;
+  margin-top: 20px;
+  padding: 16px 18px;
+  border-left: 4px solid var(--green);
+  border-radius: 8px;
+  background: #f1f7f4;
+}
+
+.kit-outcome strong {
+  color: var(--navy);
+}
+
+.kit-outcome span {
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .kit-points {
   display: grid;
   gap: 12px;
